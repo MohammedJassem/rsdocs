@@ -11,7 +11,6 @@ Below are the key modules and classes available in this library.
    rakam_systems.vector_store.VectorStores
    rakam_systems.core.Node
    rakam_systems.core.NodeMetadata
-   rakam_systems.ingestion.content_extractors.PDFContentExtractor
    rakam_systems.ingestion.node_processors.CharacterSplitter
    rakam_systems.generation.agents.RAGGeneration
    rakam_systems.generation.agents.Agent
