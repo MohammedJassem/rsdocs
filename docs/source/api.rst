@@ -5,13 +5,8 @@ The API of **Rakam Systems** is designed to handle the core functionalities of v
 
 Below are the key modules and classes available in this library.
 
-.. autosummary::
-   :toctree: generated
+.. toctree::
+   :maxdepth: 2
 
-   rakam_systems.vector_store.VectorStores
-   rakam_systems.core.Node
-   rakam_systems.core.NodeMetadata
-   rakam_systems.ingestion.node_processors.CharacterSplitter
-   rakam_systems.generation.agents.RAGGeneration
-   rakam_systems.generation.agents.Agent
-   rakam_systems.generation.agents.ClassifyQuery
+   core
+   vector_store
