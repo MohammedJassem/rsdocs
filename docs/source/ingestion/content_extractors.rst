@@ -9,12 +9,9 @@ Classes
 .. autosummary::
    :toctree: generated
 
-   rakam_systems.ingestion.content_extractors.ContentExtractor
    rakam_systems.ingestion.content_extractors.SimplePDFParser
    rakam_systems.ingestion.content_extractors.LlamaPDFParser
    rakam_systems.ingestion.content_extractors.PDFContentExtractor
-   rakam_systems.ingestion.content_extractors.URLContentExtractor
-   rakam_systems.ingestion.content_extractors.JSONContentExtractor
 
 SimplePDFParser
 ---------------
