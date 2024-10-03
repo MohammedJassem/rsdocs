@@ -60,22 +60,22 @@ Example:
    result = rag_action.execute(query=query)
    print(result)
 
-Content Extraction
-------------------
+.. Content Extraction
+.. ------------------
 
-This library provides several content extractors, such as extracting from PDFs or JSON files.
+.. This library provides several content extractors, such as extracting from PDFs or JSON files.
 
-Example for extracting from a PDF:
+.. Example for extracting from a PDF:
 
-.. code-block:: python
+.. .. code-block:: python
 
-   from rakam_systems.ingestion.content_extractors import PDFContentExtractor
+..    from rakam_systems.ingestion.content_extractors import PDFContentExtractor
 
-   # Initialize PDF Content Extractor
-   pdf_extractor = PDFContentExtractor(parser_name="SimplePDFParser", output_format="markdown")
+..    # Initialize PDF Content Extractor
+..    pdf_extractor = PDFContentExtractor(parser_name="SimplePDFParser", output_format="markdown")
 
-   # Extract content from a PDF file
-   vs_files = pdf_extractor.extract_content(source="path/to/file.pdf")
+..    # Extract content from a PDF file
+..    vs_files = pdf_extractor.extract_content(source="path/to/file.pdf")
 
 Node Processing
 ---------------
