@@ -16,16 +16,6 @@ Classes
    rakam_systems.ingestion.content_extractors.URLContentExtractor
    rakam_systems.ingestion.content_extractors.JSONContentExtractor
 
-ContentExtractor
-----------------
-
-.. autoclass:: rakam_systems.ingestion.content_extractors.ContentExtractor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-   Abstract base class for all content extractors.
-
 SimplePDFParser
 ---------------
 
@@ -56,22 +46,3 @@ PDFContentExtractor
 
    Extracts content from PDF files using the specified parser (either `LlamaParse` or `SimplePDFParser`).
 
-URLContentExtractor
--------------------
-
-.. autoclass:: rakam_systems.ingestion.content_extractors.URLContentExtractor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-   Extracts content from URLs using `BeautifulSoup` or `Playwright`.
-
-JSONContentExtractor
---------------------
-
-.. autoclass:: rakam_systems.ingestion.content_extractors.JSONContentExtractor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-   Extracts content from JSON files and stores them in a `VSFile`.
