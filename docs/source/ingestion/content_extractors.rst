@@ -10,7 +10,6 @@ Classes
    :toctree: generated
 
    rakam_systems.ingestion.content_extractors.SimplePDFParser
-   rakam_systems.ingestion.content_extractors.LlamaPDFParser
    rakam_systems.ingestion.content_extractors.PDFContentExtractor
 
 SimplePDFParser
@@ -23,15 +22,6 @@ SimplePDFParser
 
    A simple PDF parser that extracts text from PDF files using PyMuPDF.
 
-LlamaPDFParser
---------------
-
-.. autoclass:: rakam_systems.ingestion.content_extractors.LlamaPDFParser
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-   A PDF parser that extracts text using the LlamaParse API.
 
 PDFContentExtractor
 -------------------
