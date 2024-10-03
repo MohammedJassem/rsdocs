@@ -6,13 +6,13 @@ Usage
 Installation
 ------------
 
-To use **Rakam Systems**, first install the required dependencies using `pip`:
+To use **Rakam Systems**, you can install the pypi library using `pip`:
 
 .. code-block:: console
 
-   (.venv) $ pip install -r requirements.txt
+   (.venv) $ pip install rakam-systems
 
-This will install necessary packages such as `faiss`, `sentence-transformers`, and others listed in the **README**.
+This will install the library and its necessary dependencies such as `faiss`, `sentence-transformers`, and others listed in the **README**.
 
 Creating Vector Stores
 ----------------------
